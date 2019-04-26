@@ -1,0 +1,23 @@
+.form {
+    margin: auto;
+    font-size: 20px;
+}
+
+.fieldWrapper {
+    margin: 15px auto;
+}
+
+.field {
+    display: block;
+    font-size: 20px;
+    background-color: #ccc;
+    border: none;
+    margin-top: 5px;
+    padding: 5px 10px;
+    outline: none;
+}
+
+.submit {
+    text-align: center;
+    margin: 40px 0;
+}

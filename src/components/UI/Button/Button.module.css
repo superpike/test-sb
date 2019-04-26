@@ -1,0 +1,30 @@
+.Button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    font-weight: bold;
+    padding: 10px;
+    line-height: 1;
+    border-radius: 5px;
+    margin: 0 20px;
+}
+
+.Success {
+    color: transparent;    
+    background-clip: text;
+    background-image: linear-gradient(to right, #71eb0d 0%, #74b85f 100%);
+    font-size: 1.5rem;
+    box-shadow: 1px 2px 5px #74b85f;
+}
+
+.Success:active {
+    transform: translate(1px,2px);
+    box-shadow: none;
+}
+
+.Danger {
+    color: #944317;
+}

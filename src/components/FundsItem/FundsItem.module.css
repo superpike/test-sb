@@ -1,0 +1,38 @@
+.wrapper {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin: auto;
+    transition: .3s;
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper:hover {
+    box-shadow: 1rem 1.2rem 1rem #575757;
+    transform: translate(-0.2rem, -0.2rem);
+}
+
+.name {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.description {
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.imageWrapper {
+    padding: 10px;
+    height: 180px;
+}
+
+.image {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+}
